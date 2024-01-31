@@ -1,0 +1,45 @@
+
+header {
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    padding: auto;
+}
+
+main {
+    width: 85vw;
+    padding-left: 0.1em;
+    padding-right: 1em;
+}
+
+
+header, main {
+    overflow: auto;
+    padding-left: 0.1em;
+    padding-right: 1em;
+}
+
+section {
+    padding-left: 0.5em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 15vw;
+    background-color: gainsboro;
+    float: left;
+}
+
+nav a {
+    background-color: white;
+    padding: 0.3em;
+    margin: 0.5em;
+    color: black;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    background-color: lightgray;
+}
